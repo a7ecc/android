@@ -1,0 +1,21 @@
+On Android Phone:
+1)Enable USB debugging from settings
+2)Connect Device Via USB
+_________________
+
+On Pc:
+1)Download Adb From This Link(https://developer.android.com/tools/releases/platform-tools)
+2)Type This Commands ON CMD:
+  adb devices
+  adb -s %device_id% tcpip 5555
+
+Now You Can Unpluged android phone.
+_________________
+
+Connect Throut ip:
+adb connect %ip%:5555
+adb devices
+______
+scrcpy.exe(screen share)
+adb shell(shell window)
+adb install -d %apk_path%.apk(install apps)
