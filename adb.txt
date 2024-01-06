@@ -1,9 +1,0 @@
-On Android Phone:
-1)Enable USB debugging from settings
-2)Connect Device Via USB
-_________________
-On Pc:
-1)Download Adb From This Link(https://developer.android.com/tools/releases/platform-tools)
-2)Type This Commands ON CMD:
-  adb devices
-  adb -s %device_id% tcpip 5555
